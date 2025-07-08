@@ -1,0 +1,155 @@
+.dashboard-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+
+.fade-in {
+  animation: fadeIn 0.7s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.logout-btn {
+  margin-top: 1.2rem;
+  padding: 0.6rem 1.5rem;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(118,75,162,0.08);
+  transition: background 0.18s, transform 0.18s;
+  float: right;
+}
+.logout-btn:hover {
+  background: linear-gradient(90deg, #5a67d8 0%, #6b46c1 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.user-welcome {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-placeholder {
+  color: #888;
+  font-weight: bold;
+}
+
+.user-info h1 {
+  margin: 0 0 0.2rem 0;
+  font-size: 1.8rem;
+}
+
+.user-email {
+  color: #666;
+  margin-bottom: 0.2rem;
+}
+
+.user-since {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.providers-section {
+  margin-top: 2rem;
+}
+
+.providers-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.providers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.provider-item {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.provider-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.provider-name {
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.provider-linked-at {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.add-provider-link {
+  margin-top: 1rem;
+}
+
+.add-provider-link a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.add-provider-link a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #d32f2f;
+  background: #fff0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.icon-success {
+  color: #4BB543;
+  font-size: 40px;
+}
+
+.icon-error {
+  color: #D32F2F;
+  font-size: 40px;
+}
