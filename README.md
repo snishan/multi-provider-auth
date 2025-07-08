@@ -1,4 +1,6 @@
 # 🔐 Fullstack Social Login App
+![React App](https://github.com/user-attachments/assets/802ff74b-5566-4a08-9400-b6bbfeb6fbbc)
+
 
 A modern full-stack application implementing secure authentication via **Google**, **GitHub**, and **Microsoft Azure AD**. Built using **React** and **Node.js**, this project demonstrates OAuth2 login, JWT-based session handling, and scalable user management using Passport.js and MongoDB.
 
